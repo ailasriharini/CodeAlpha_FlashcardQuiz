@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flashcard Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Flashcard Quiz</h1>
+
+        <div class="card">
+            <h2 id="question">What is HTML?</h2>
+            <p id="answer">HTML stands for HyperText Markup Language.</p>
+
+            <button onclick="showAnswer()">Show Answer</button>
+        </div>
+
+        <div class="buttons">
+            <button onclick="previousCard()">Previous</button>
+            <button onclick="nextCard()">Next</button>
+        </div>
+
+        <p id="count"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
